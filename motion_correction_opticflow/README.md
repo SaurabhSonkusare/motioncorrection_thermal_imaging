@@ -3,7 +3,9 @@
 Motion correction for faces in infra-red imagery.
 
 
-This code is the official python implementation of the thermal facial motion correction method used in our paper: Data-driven analysis of facial thermal responses to an emotional movie reveals consistent stimulus-locked physiological changes. Please refer to our paper for more technical details.
+This code is the official python implementation of the thermal facial motion correction method used in our paper: Sonkusare, S., Breakspear, M., Pang, T., Nguyen, V. T., Frydman, S., Guo, C. C., & Aburn, M. J. (2021). Data-driven analysis of facial thermal responses and multimodal physiological consistency among subjects. Scientific reports, 11(1), 1-12. Please refer to our paper for more technical details.
+
+This code is mostly the work of Tianji Pang and Matthew Aburn. The following instruction are copied from Tianji's github https://github.com/TianjiPang/IRtrack_master 
 
 
 The method is based on the DeepFlow method[1][2].
@@ -50,10 +52,4 @@ To do the motion correction, user should select a reference frame and input it i
 ## Acknowledgement
 If this code is helpful to your research, please consider citing our paper by:
 ```
-@inproceedings{,
-    title={Data-driven analysis of facial thermal responses to an emotional movie reveals consistent stimulus-locked physiological changes},
-    author={Saurabh Sonkusare, Michael Breakspear, Tianji Pang, Vinh Thai Nguyen, Sascha Frydman, Christine Cong Guo, Matthew J. Aburn},
-    year={2021},
-    booktitle = {}
-}
-```
+Sonkusare, S., Breakspear, M., Pang, T., Nguyen, V. T., Frydman, S., Guo, C. C., & Aburn, M. J. (2021). Data-driven analysis of facial thermal responses and multimodal physiological consistency among subjects. Scientific reports, 11(1), 1-12.
